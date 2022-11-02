@@ -19,7 +19,7 @@ from projct_app.views import Dog, Cat, Hom
 
 urlpatterns = [
     path('', Hom.as_view()),
-    path('dog/', Dog.as_view()),
-    path('cat/', Cat.as_view()),
+    path('rundom/dog/', Dog.as_view()),
+    path('rundom/cat/', Cat.as_view()),
     path('admin/', admin.site.urls),
 ]
